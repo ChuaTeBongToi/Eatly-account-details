@@ -207,12 +207,16 @@
             </div>
             <h1 class="right-content-title">Personal Information</h1>
             <div id="avatar">
-                <img src="Ellipse 194.png">
+                <img src="Ellipse 194.png" id="photo">
                 <div class="avatar-text">
                     <h1>WibuYeuCode</h1>
                     <div id="btn-ctn">
-                        <button id="upload">Upload New Picture</button>
-                        <button id=delete>Delete</button>
+                        <span onclick="uploadFile()">
+                            <p>Upload</p>
+                            <input onchange="previewFile()" type="file" name="file" id="input-file" alt="file">
+                        </span>
+                        <button onclick="deleteFile()" id="delete">Delete</button>
+                        <script src="index.js"></script>
                     </div>
                 </div>
             </div>

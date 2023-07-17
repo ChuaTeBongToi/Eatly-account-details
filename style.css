@@ -372,7 +372,6 @@ hr {
 #avatar img {
     cursor: pointer;
     border-radius: 112px;
-    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
 
 .avatar-text h1 {
@@ -547,4 +546,40 @@ input[type="text"]::placeholder {
     line-height: normal;
     letter-spacing: -0.16px;
     border: 0;
+}
+
+#input-file {
+    display: none;
+}
+
+#btn-ctn span {
+    margin-right: 15px;
+    border-radius: 8px;
+    background: #6C5FBC;
+    cursor: pointer;
+    display: flex;
+    width: 183px;
+    height: 40px;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: var(--others-white, #FFF);
+    text-align: center;
+
+    /* body/small/extrabold */
+    font-family: Manrope;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 150%;
+    /* 18px */
+    letter-spacing: 0.4px;
+}
+
+#photo {
+    object-fit: cover;
+    width: 105px;
+    height: 111px;
+    flex-shrink: 0;
 }
