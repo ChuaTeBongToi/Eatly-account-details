@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Manrope:wght@500&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <script src="script.JS"></script>
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="logo-ctn">
+            <img src="Logo.png" alt="logo" class="logo-img">
+            <h1 class="logo-title">eatly</h1>
+        </div>
+        <section class="main-nav">
+            <hr>
+            <ul class="list">
+                <li class="item" id="Dashboard">
+                    <img src="home-2.png">
+                    <p class="item-name">Dashboard</p>
+                </li>
+
+                <li class="item" id="Orders">
+                    <img src="receipt-tax.png">
+                    <p class="item-name">Orders</p>
+                </li>
+
+                <li class="item" id="Messages">
+                    <img src="message.png">
+                    <p class="item-name">Messages</p>
+                    <p id="notification">5</p>
+                </li>
+
+                <li class="item" id="My Wallets">
+                    <img src="card.png">
+                    <p class="item-name">My Wallets</p>
+                </li>
+
+                <li class="item" id="Activity">
+                    <img src="group.png">
+                    <p class="item-name">Activity</p>
+                    <img src="chevron-down.png" id="activity-img">
+                </li>
+
+                <div id="bottom-items">
+                    <li class="item" id="settings">
+                        <img src="question-circle-outlined.png">
+                        <p class="item-name">Get Help</p>
+                    </li>
+
+                    <li class="item" id="settings">
+                        <img src="settings.png">
+                        <p class="item-name">Settings</p>
+                    </li>
+                </div>
+            </ul>
+        </section>
+    </nav>
+
+    <header class="content">
+        <section class="left-content">
+            <h1 class="content-title">Account Details</h1>
+            <hr id="line">
+            <div id="profile-complete">
+                <div class="ctn">
+                    <img id="process" src="progress.png">
+                    <div class="profile-text">
+                        <h1>Complete profile</h1>
+                        <p>Complete your profile to unlock all features</p>
+                    </div>
+                </div>
+                <button id="verify">Verify Identity</button>
+            </div>
+            <ul id="menu">
+                <li class="item" id="account-information">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                        <path
+                            d="M16.9978 6.09851C16.9978 8.96504 14.674 11.2888 11.8075 11.2888C8.94097 11.2888 6.61719 8.96504 6.61719 6.09851C6.61719 3.23198 8.94097 0.908203 11.8075 0.908203C14.674 0.908203 16.9978 3.23198 16.9978 6.09851Z"
+                            fill="#6C5FBC" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M11.8076 1.81661C9.44271 1.81661 7.52559 3.73373 7.52559 6.09862C7.52559 8.4635 9.44271 10.3806 11.8076 10.3806C14.1725 10.3806 16.0896 8.4635 16.0896 6.09862C16.0896 3.73373 14.1725 1.81661 11.8076 1.81661ZM5.70898 6.09862C5.70898 2.73044 8.43943 0 11.8076 0C15.1758 0 17.9062 2.73044 17.9062 6.09862C17.9062 9.46679 15.1758 12.1972 11.8076 12.1972C8.43943 12.1972 5.70898 9.46679 5.70898 6.09862Z"
+                            fill="#6C5FBC" />
+                        <path
+                            d="M23.3996 24.0919H0.908203C0.908203 21.2084 3.15734 15.4414 12.1539 15.4414C21.1504 15.4414 23.3996 21.2084 23.3996 24.0919Z"
+                            fill="#6C5FBC" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M2.4943 18.0643C4.38023 16.0494 7.44742 14.5327 12.154 14.5327C16.8605 14.5327 19.9277 16.0494 21.8137 18.0643C23.6758 20.0538 24.308 22.4467 24.308 24.0915C24.308 24.5932 23.9013 24.9998 23.3997 24.9998H0.908305C0.406662 24.9998 0 24.5932 0 24.0915C0 22.4467 0.632127 20.0538 2.4943 18.0643ZM1.89385 23.1832H22.4141C22.2251 22.0173 21.6661 20.565 20.4874 19.3057C18.9996 17.7162 16.444 16.3493 12.154 16.3493C7.864 16.3493 5.30835 17.7162 3.82058 19.3057C2.64186 20.565 2.08287 22.0173 1.89385 23.1832Z"
+                            fill="#6C5FBC" />
+                    </svg>
+                    <div class="menu-text">
+                        <h1>Account Information</h1>
+                        <p>Change your Account Information</p>
+                    </div>
+                </li>
+                <li class="item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="17" viewBox="0 0 26 17" fill="none">
+                        <path
+                            d="M1.38839 8.77835C1.35491 8.73678 1.35491 8.68216 1.38839 8.6406C1.97235 7.9155 7.14152 1.70947 13.0002 1.70947C18.859 1.70947 24.0281 7.91549 24.6121 8.64059C24.6456 8.68216 24.6456 8.73678 24.6121 8.77835C24.0281 9.50345 18.859 15.7095 13.0002 15.7095C7.14152 15.7095 1.97235 9.50345 1.38839 8.77835Z"
+                            fill="#6C5FBC" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M2.47436 8.70947C3.07444 9.39697 4.23671 10.6377 5.75566 11.8268C7.79916 13.4266 10.3637 14.8345 13.0002 14.8345C15.6368 14.8345 18.2013 13.4266 20.2448 11.8268C21.7638 10.6377 22.926 9.39697 23.5261 8.70947C22.926 8.02198 21.7638 6.78122 20.2448 5.5921C18.2013 3.99234 15.6368 2.58447 13.0002 2.58447C10.3636 2.58447 7.79915 3.99234 5.75565 5.59211C4.23671 6.78123 3.07444 8.02198 2.47436 8.70947ZM4.6769 4.21414C6.82866 2.52962 9.77811 0.834473 13.0002 0.834473C16.2224 0.834473 19.1718 2.52962 21.3236 4.21414C23.495 5.91406 24.981 7.70359 25.2936 8.09177C25.5851 8.45372 25.5851 8.96521 25.2936 9.32718C24.981 9.71535 23.495 11.5049 21.3236 13.2048C19.1718 14.8893 16.2224 16.5845 13.0002 16.5845C9.77811 16.5845 6.82866 14.8893 4.6769 13.2048C2.50547 11.5049 1.01953 9.71535 0.706912 9.32718C0.415411 8.96522 0.415398 8.45374 0.706911 8.09177C1.01953 7.7036 2.50547 5.91406 4.6769 4.21414Z"
+                            fill="#6C5FBC" />
+                        <path
+                            d="M16.5002 8.70947C16.5002 10.6425 14.9332 12.2095 13.0002 12.2095C11.0672 12.2095 9.50024 10.6425 9.50024 8.70947C9.50024 6.77648 11.0672 5.20947 13.0002 5.20947C14.9332 5.20947 16.5002 6.77648 16.5002 8.70947Z"
+                            fill="#6C5FBC" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M13.0002 6.08447C11.5505 6.08447 10.3752 7.25973 10.3752 8.70947C10.3752 10.1592 11.5505 11.3345 13.0002 11.3345C14.45 11.3345 15.6252 10.1592 15.6252 8.70947C15.6252 7.25973 14.45 6.08447 13.0002 6.08447ZM8.62524 8.70947C8.62524 6.29323 10.584 4.33447 13.0002 4.33447C15.4165 4.33447 17.3752 6.29323 17.3752 8.70947C17.3752 11.1257 15.4165 13.0845 13.0002 13.0845C10.584 13.0845 8.62524 11.1257 8.62524 8.70947Z"
+                            fill="white" />
+                    </svg>
+                    <div class="menu-text">
+                        <h1>Password</h1>
+                        <p>Change your Password</p>
+                    </div>
+                </li>
+                <li class="item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="33" height="23" viewBox="0 0 18 23" fill="none">
+                        <path
+                            d="M5.47966 10.0902C5.47966 8.14567 7.05599 6.56934 9.00049 6.56934C10.945 6.56934 12.5213 8.14567 12.5213 10.0902C12.5213 12.0347 10.945 13.611 9.00049 13.611C7.05599 13.611 5.47966 12.0347 5.47966 10.0902Z"
+                            fill="#6C5FBC" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M0.0884929 8.87401C0.460768 4.35765 4.23488 0.881836 8.76655 0.881836H9.23448C13.7662 0.881836 17.5403 4.35765 17.9125 8.87401C18.113 11.3057 17.3619 13.7202 15.8174 15.609L10.6249 21.9593C9.78535 22.986 8.21568 22.986 7.37612 21.9593L2.18364 15.609C0.639177 13.7202 -0.111943 11.3057 0.0884929 8.87401ZM9.00049 4.94434C6.15852 4.94434 3.85466 7.2482 3.85466 10.0902C3.85466 12.9321 6.15852 15.236 9.00049 15.236C11.8425 15.236 14.1463 12.9321 14.1463 10.0902C14.1463 7.2482 11.8425 4.94434 9.00049 4.94434Z"
+                            fill="#6C5FBC" />
+                    </svg>
+                    <div class="menu-text">
+                        <h1>Delivery Locations</h1>
+                        <p>Edit Or Change Your Daily Delivery Locations</p>
+                    </div>
+                </li>
+                <li class="item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
+                        <path
+                            d="M1.25 10.7607C1.25 8.89678 2.76104 7.38574 4.625 7.38574H20.375C22.239 7.38574 23.75 8.89678 23.75 10.7607V19.7607C23.75 21.6247 22.239 23.1357 20.375 23.1357H4.625C2.76104 23.1357 1.25 21.6247 1.25 19.7607V10.7607Z"
+                            fill="#6C5FBC" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M0.40625 10.7607C0.40625 8.43079 2.29505 6.54199 4.625 6.54199H20.375C22.705 6.54199 24.5938 8.43079 24.5938 10.7607V19.7607C24.5938 22.0907 22.705 23.9795 20.375 23.9795H4.625C2.29505 23.9795 0.40625 22.0907 0.40625 19.7607V10.7607ZM4.625 8.22949C3.22703 8.22949 2.09375 9.36277 2.09375 10.7607V19.7607C2.09375 21.1587 3.22703 22.292 4.625 22.292H20.375C21.773 22.292 22.9062 21.1587 22.9062 19.7607V10.7607C22.9062 9.36277 21.773 8.22949 20.375 8.22949H4.625Z"
+                            fill="#6C5FBC" />
+                        <path
+                            d="M18.82 1.27902L4.58574 7.16906C4.47197 7.21614 4.50563 7.38551 4.62875 7.38551H20.2626C20.3248 7.38551 20.3751 7.33515 20.3751 7.27301V2.31854C20.3751 1.51695 19.5607 0.972532 18.82 1.27902Z"
+                            fill="white" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M19.5315 2.31843C19.5315 2.11804 19.3278 1.98193 19.1427 2.05856L8.30851 6.54166H19.5315V2.31843ZM18.4975 0.499277C19.7937 -0.0370821 21.219 0.915646 21.219 2.31843V7.27291C21.219 7.80103 20.7908 8.22916 20.2627 8.22916H4.62882C3.58225 8.22916 3.29617 6.78947 4.26319 6.38932L18.4975 0.499277L18.8181 1.27409L18.4975 0.499277Z"
+                            fill="#6C5FBC" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M2.65625 13.0107C2.65625 12.5448 3.03401 12.167 3.5 12.167L21.5 12.167C21.966 12.167 22.3438 12.5448 22.3438 13.0107C22.3438 13.4767 21.966 13.8545 21.5 13.8545L3.5 13.8545C3.03401 13.8545 2.65625 13.4767 2.65625 13.0107Z"
+                            fill="white" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M3.78125 18.6357C3.78125 18.1698 4.15901 17.792 4.625 17.792L11.375 17.792C11.841 17.792 12.2188 18.1698 12.2188 18.6357C12.2188 19.1017 11.841 19.4795 11.375 19.4795H4.625C4.15901 19.4795 3.78125 19.1017 3.78125 18.6357Z"
+                            fill="white" />
+                    </svg>
+                    <div class="menu-text">
+                        <h1>Payment Methods</h1>
+                        <p>Add Your Credit / Credit Cards</p>
+                    </div>
+                </li>
+                <li class="item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="28" viewBox="0 0 27 28" fill="none">
+                        <path
+                            d="M11.0578 21.7855L4.84405 23.38C4.41442 23.4903 4.02381 23.0997 4.13405 22.67L5.72841 16.4561C5.75438 16.3549 5.80706 16.2625 5.88096 16.1886L17.4759 4.59323C17.7037 4.36542 18.073 4.36542 18.3008 4.59322L22.9202 9.21261C23.148 9.44042 23.148 9.80978 22.9202 10.0376L11.3253 21.633C11.2514 21.7069 11.159 21.7596 11.0578 21.7855Z"
+                            fill="#6C5FBC" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M18.9195 3.97464L23.5389 8.59403C24.1084 9.16355 24.1084 10.087 23.5389 10.6565L11.944 22.2519C11.7592 22.4366 11.5283 22.5683 11.2753 22.6332L5.06152 24.2277C3.98744 24.5034 3.01092 23.5268 3.28652 22.4527L4.88088 16.2388C4.94581 15.9857 5.07752 15.7548 5.26225 15.57L16.8572 3.97465C17.4267 3.40513 18.35 3.40513 18.9195 3.97464ZM17.8884 5.41835L6.5561 16.7511L5.10411 22.4101L10.763 20.958L22.0952 9.62527L17.8884 5.41835Z"
+                            fill="#6C5FBC" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M18.5086 9.00627C18.8503 9.34797 18.8503 9.90199 18.5086 10.2437L11.5089 17.2437C11.1672 17.5854 10.6131 17.5854 10.2714 17.2437C9.92971 16.902 9.9297 16.348 10.2714 16.0063L17.2711 9.00629C17.6128 8.66458 18.1669 8.66457 18.5086 9.00627Z"
+                            fill="white" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M8.13128 18.1459C8.47299 17.8042 9.02701 17.8042 9.36872 18.1459L10.5354 19.3126C10.8771 19.6543 10.8771 20.2083 10.5354 20.55C10.1937 20.8917 9.63966 20.8917 9.29795 20.55L8.13128 19.3834C7.78957 19.0417 7.78957 18.4876 8.13128 18.1459Z"
+                            fill="white" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M20.3825 1.22893C20.7242 0.887224 21.2782 0.887235 21.62 1.22895L26.2864 5.89562C26.6281 6.23733 26.6281 6.79135 26.2864 7.13306C25.9447 7.47476 25.3907 7.47475 25.049 7.13303L20.3825 2.46636C20.0408 2.12465 20.0408 1.57063 20.3825 1.22893Z"
+                            fill="#6C5FBC" />
+                    </svg>
+                    <div class="menu-text">
+                        <h1>Invite Your Friends</h1>
+                        <p>Get $3 For Each Invitation!</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <section class="right-content">
+            <div class="account">
+                <svg class="search" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                    fill="none">
+                    <circle cx="11.7666" cy="11.7666" r="8.98856" stroke="#1A202C" stroke-width="1.5"
+                        stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M18.0183 18.4851L21.5423 22" stroke="#1A202C" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+                <img src="notifications.png" class="notifications">
+                <div class="users">
+                    <img src="Ellipse 73.png">
+                    <p class="user-name">WibuYeuCode</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                        <path d="M4 6L8 10L12 6" stroke="#718096" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                </div>
+            </div>
+            <h1 class="right-content-title">Personal Information</h1>
+            <div id="avatar">
+                <img src="Ellipse 194.png">
+                <div class="avatar-text">
+                    <h1>WibuYeuCode</h1>
+                    <div id="btn-ctn">
+                        <button id="upload">Upload New Picture</button>
+                        <button id=delete>Delete</button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="inputs">
+                <div class="input">
+                    <input type="text" id="name" placeholder="WibuYeuCode">
+                    <img src="Mask Group.png">
+                </div>
+                <div class="input">
+                    <input type="text" id="name" placeholder="WibuYeuCode@gmail.com">
+                    <img src="Mask Group.png">
+                </div>
+                <div class="input">
+                    <input type="text" id="name" placeholder="+00 000000 000">
+                    <img src="Mask Group.png">
+                </div>
+                <div class="address">
+                    <input type="text" placeholder="Street number">
+                    <input type="text" placeholder="Apt/ House Number">
+                </div>
+                <div class="city-address">
+                    <select name="city" id="city-input">
+                        <option class="option">
+                            <p id="placeholder">City</p>
+                        </option>
+                        <option class="option">City1</option>
+                        <option class="option">City2</option>
+                    </select>
+                    <select name="city" id="city-input">
+                        <option class="option">
+                            <p id="placeholder">State</p>
+                        </option>
+                        <option class="option">City1</option>
+                        <option class="option">City2</option>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="11" height="6" viewBox="0 0 11 6" fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M10.124 0.23964C10.4435 0.55916 10.4435 1.0772 10.124 1.39672L5.76036 5.76036C5.44084 6.07988 4.9228 6.07988 4.60328 5.76036L0.23964 1.39672C-0.0798799 1.0772 -0.0798799 0.55916 0.23964 0.23964C0.55916 -0.0798796 1.0772 -0.0798796 1.39672 0.23964L5.18182 4.02473L8.96691 0.23964C9.28643 -0.07988 9.80448 -0.07988 10.124 0.23964Z"
+                                fill="#ACADB9" />
+                        </svg>
+                    </select>
+                </div>
+                <button id="btn">Update</button>
+            </div>
+        </section>
+    </header>
+</body>
+
+</html>
